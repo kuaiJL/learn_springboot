@@ -1,0 +1,17 @@
+person:
+  name: 拉法
+  age: 33
+  happy: false
+  birth: 2008/08/08
+  maps: {k1: v1,k2: v2}
+  lists:
+    - code
+    - girl
+    - music
+  dog:
+    name: 黑炭
+    age: 2
+
+dog1:
+  name: 黑子${dog1.age:2}岁
+  age: ${random.int}

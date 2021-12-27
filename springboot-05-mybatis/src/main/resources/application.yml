@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: rafa
+    password: 970311Kl!
+    url: jdbc:mysql://139.196.122.222:3306/bishe?useSSL=true&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  type-aliases-package: com.kim.pojo
+  mapper-locations: classpath:mybatis/mapper/*.xml
